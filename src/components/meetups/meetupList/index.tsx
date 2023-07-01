@@ -15,6 +15,7 @@ const MeetupList: React.FC<Props> = ({ meetups }) => {
           description={meetup.description}
           image={meetup.image}
           title={meetup.title}
+          id={meetup.id}
         />
       ))}
     </ul>
